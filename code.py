@@ -26,8 +26,4 @@ def restart () :
     print ("\033[1;31m                 ╚╤╧╤╧╤╧╤╧╤╧╤╧╤╧╤╧╤╧╤╧╤╧╤╧╤╝")
     print (' ')
     print (' ')
-    restart = input ('\033[1;32m ~  Press Enter To Continue:  ')
-    if restart == '' :
-        os.system('clear')
-        v7x_banner ()
-        home_main ()
+    
